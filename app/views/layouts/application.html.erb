@@ -2,12 +2,16 @@
 <html>
 <head>
   <title>TaskManager</title>
+  <%= javascript_include_tag 'application' %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body ng-app='app'>
+  This is out homepage
+  
+<ui-view></ui-view>
 
-<%= yield %>
+
 
 </body>
 </html>

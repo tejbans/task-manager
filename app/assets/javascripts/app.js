@@ -4,7 +4,7 @@ angular
     $stateProvider
       .state('home',{
         url: '/',
-        templateUrl: 'app/views/home.html'
+        templateUrl: 'app/views/home.html',
         controller: 'TestCtrl as test'
       });
      $urlRouterProvider.otherwise('/') 

@@ -10,6 +10,7 @@ function TasksController() {
       description: 'This is my Second task'
     }];
 }
+
 angular
-  .module(‘app’)
-  .controller(‘TasksController’, TasksController);
+  .module('app')
+  .controller('TasksController', TasksController)

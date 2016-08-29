@@ -7,5 +7,10 @@ angular
         templateUrl: 'app/templates/home.html',
         controller: 'HomeController as ctrl'
       })
+      .state('home.new',{
+        url: 'new',
+        templateUrl: 'app/templates/home/new.html',
+        controller: 'TasksController as ctrl'
+      })
      $urlRouterProvider.otherwise('/');
   });
